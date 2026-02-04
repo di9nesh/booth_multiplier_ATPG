@@ -37,4 +37,4 @@ TEST PATTERN GENERATION OF BOOTH MULTIPLIER
   <b>Figure:</b> Test pattern report
 </div>
 
-**USE REPORT FOR MORE DETAILS**
+**USE [REPORT.pdf](report.pdf) FOR MORE DETAILS**
