@@ -25,23 +25,10 @@ TEST PATTERN GENERATION OF BOOTH MULTIPLIER
 
 2. Now use the NangateOpenCellLibrary.v to create netlist. Use Synopsys DC or Cadence Genus. 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/aebd021d-092f-45dd-8e8e-8bebcdc0781c" width="448"/>
-  <br>
-  <b>Figure:</b> Area report
-</div>
-
-<br>
-
-<div align="left">
   <img src="https://github.com/user-attachments/assets/99498837-84a1-42a8-96fa-bd3966a0f079" width="452"/>
   <br>
   <b>Figure:</b> Netlist
 </div>
 
-<br>
-
-<div align="left">
-  <img src="https://github.com/user-attachments/assets/70e4b2d2-f1e8-4755-b88e-8ae5da6562fb" width="451"/>
-  <br>
-  <b>Figure:</b> Power report
-</div>
+3. After this Generate the test pattern using Synopsys Tetramax or Cadence Modus
+![WhatsApp Image 2024-05-02 at 14 29 22](https://github.com/user-attachments/assets/9410400d-74bf-4d29-a76f-0e3d1c7b567b)
