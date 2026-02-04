@@ -23,4 +23,7 @@ TEST PATTERN GENERATION OF BOOTH MULTIPLIER
   <b>Figure:</b> After Simulation
 </div>
 
-
+2. Now use the NangateOpenCellLibrary.v to create netlist. Use Synopsys DC or Cadence Genus. 
+<img width="448" height="193" alt="area" src="https://github.com/user-attachments/assets/aebd021d-092f-45dd-8e8e-8bebcdc0781c" />
+<img width="451" height="162" alt="pow" src="https://github.com/user-attachments/assets/70e4b2d2-f1e8-4755-b88e-8ae5da6562fb" />
+<img width="452" height="191" alt="netlist" src="https://github.com/user-attachments/assets/99498837-84a1-42a8-96fa-bd3966a0f079" 
