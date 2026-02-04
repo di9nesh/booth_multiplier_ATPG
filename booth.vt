@@ -1,0 +1,19 @@
+module booth_tb;
+wire signed [15:0] z;
+reg signed [7:0] a,b;
+
+
+booth my_booth(.m2(a),.m1(b),.result_pro(z));
+
+
+initial begin
+
+a = 5; b = 6;
+    #10 a = 6; b = 7;
+    #10 a = 9; b = 7;
+    #10 a = 15; b = 15;
+    #10 a = 30; b = 30;
+    #10 a = 25; b = 25;
+
+end
+endmodule

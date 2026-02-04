@@ -1,0 +1,786 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : booth
+Version: S-2021.06-SP5-1
+Date   : Sun Apr 28 05:06:51 2024
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.13 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.05       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.04       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: m2[1] (input port)
+  Endpoint: result_pro[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  booth              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  m2[1] (in)                               0.00       0.00 f
+  U835/ZN (INV_X1)                         0.06       0.06 r
+  U830/Z (XOR2_X1)                         0.08       0.14 r
+  U829/ZN (AOI21_X1)                       0.04       0.18 f
+  U822/ZN (OAI21_X1)                       0.04       0.22 r
+  U821/ZN (OAI21_X1)                       0.04       0.26 f
+  U817/ZN (OAI21_X1)                       0.04       0.30 r
+  U816/ZN (INV_X1)                         0.02       0.32 f
+  U815/ZN (AOI21_X1)                       0.04       0.36 r
+  U787/ZN (INV_X1)                         0.03       0.39 f
+  U786/ZN (AOI21_X1)                       0.03       0.42 r
+  U785/ZN (INV_X1)                         0.02       0.45 f
+  U784/ZN (OAI21_X1)                       0.03       0.48 r
+  U781/Z (XOR2_X1)                         0.05       0.53 r
+  U780/ZN (NAND2_X1)                       0.03       0.56 f
+  U775/Z (XOR2_X1)                         0.05       0.61 f
+  U752/ZN (AND2_X1)                        0.03       0.65 f
+  U751/ZN (OAI22_X1)                       0.04       0.69 r
+  U749/ZN (XNOR2_X1)                       0.05       0.74 r
+  U748/ZN (NAND2_X1)                       0.03       0.76 f
+  U737/Z (XOR2_X1)                         0.05       0.82 f
+  U712/ZN (OAI21_X1)                       0.04       0.85 r
+  U711/ZN (OAI21_X1)                       0.03       0.89 f
+  U708/ZN (XNOR2_X1)                       0.05       0.94 f
+  U707/ZN (NAND2_X1)                       0.03       0.96 r
+  U687/Z (XOR2_X1)                         0.06       1.03 r
+  U663/ZN (INV_X1)                         0.03       1.05 f
+  U662/ZN (OAI21_X1)                       0.03       1.08 r
+  U661/ZN (OAI21_X1)                       0.03       1.12 f
+  U659/ZN (XNOR2_X1)                       0.05       1.17 f
+  U658/ZN (NAND2_X1)                       0.03       1.19 r
+  U636/Z (XOR2_X1)                         0.07       1.26 r
+  U613/ZN (INV_X1)                         0.03       1.28 f
+  U612/ZN (OAI21_X1)                       0.03       1.32 r
+  U611/ZN (OAI21_X1)                       0.03       1.35 f
+  U609/Z (XOR2_X1)                         0.05       1.41 f
+  U608/ZN (NAND2_X1)                       0.03       1.43 r
+  U586/Z (XOR2_X1)                         0.07       1.50 r
+  U563/ZN (AOI21_X1)                       0.03       1.53 f
+  U562/ZN (INV_X1)                         0.02       1.55 r
+  U561/ZN (OAI21_X1)                       0.04       1.59 f
+  U532/ZN (AOI21_X1)                       0.04       1.63 r
+  U531/ZN (INV_X1)                         0.02       1.65 f
+  U530/ZN (OAI21_X1)                       0.03       1.68 r
+  U528/Z (XOR2_X1)                         0.05       1.73 r
+  U527/ZN (NAND2_X1)                       0.03       1.76 f
+  U512/Z (XOR2_X1)                         0.06       1.81 f
+  U510/ZN (OAI21_X1)                       0.04       1.85 r
+  U509/ZN (INV_X1)                         0.02       1.87 f
+  U508/ZN (AOI21_X1)                       0.04       1.92 r
+  U486/ZN (AOI21_X1)                       0.03       1.95 f
+  U485/ZN (INV_X1)                         0.02       1.97 r
+  U484/ZN (OAI21_X1)                       0.03       2.00 f
+  U471/ZN (OAI22_X1)                       0.04       2.05 r
+  U469/Z (XOR2_X1)                         0.05       2.10 r
+  U468/ZN (NAND2_X1)                       0.03       2.12 f
+  U467/ZN (XNOR2_X1)                       0.05       2.17 f
+  U435/Z (BUF_X1)                          0.03       2.20 f
+  result_pro[14] (out)                     0.01       2.21 f
+  data arrival time                                   2.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

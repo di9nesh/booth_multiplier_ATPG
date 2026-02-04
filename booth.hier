@@ -1,0 +1,26 @@
+ 
+****************************************
+Report : hierarchy
+Design : booth
+Version: S-2021.06-SP5-1
+Date   : Sun Apr 28 05:06:50 2024
+****************************************
+
+booth
+    AND2_X1           NangateOpenCellLibrary
+    AOI21_X1          NangateOpenCellLibrary
+    AOI22_X1          NangateOpenCellLibrary
+    AOI211_X1         NangateOpenCellLibrary
+    BUF_X1            NangateOpenCellLibrary
+    INV_X1            NangateOpenCellLibrary
+    MUX2_X1           NangateOpenCellLibrary
+    NAND2_X1          NangateOpenCellLibrary
+    NAND3_X1          NangateOpenCellLibrary
+    NOR2_X1           NangateOpenCellLibrary
+    OAI21_X1          NangateOpenCellLibrary
+    OAI22_X1          NangateOpenCellLibrary
+    OAI211_X1         NangateOpenCellLibrary
+    OR2_X1            NangateOpenCellLibrary
+    XNOR2_X1          NangateOpenCellLibrary
+    XOR2_X1           NangateOpenCellLibrary
+1

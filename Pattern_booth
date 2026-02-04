@@ -1,0 +1,302 @@
+STIL 1.0 { Design 2005; }
+Header {
+   Title "  TetraMAX(R)  L-2016.03-SP5-i161014_180153 STIL output";
+   Date "Fri Apr 26 13:59:47 2024";
+   History {
+      Ann {*   Uncollapsed Transition Fault Summary Report *}
+      Ann {* ----------------------------------------------- *}
+      Ann {* fault class                     code   #faults *}
+      Ann {* ------------------------------  ----  --------- *}
+      Ann {* Detected                         DT       2617 *}
+      Ann {* Possibly detected                PT          0 *}
+      Ann {* Undetectable                     UD          0 *}
+      Ann {* ATPG untestable                  AU          0 *}
+      Ann {* Not detected                     ND         11 *}
+      Ann {* ----------------------------------------------- *}
+      Ann {* total faults                              2628 *}
+      Ann {* test coverage                            99.58% *}
+      Ann {* ----------------------------------------------- *}
+      Ann {*  *}
+      Ann {*            Pattern Summary Report *}
+      Ann {* ----------------------------------------------- *}
+      Ann {* #internal patterns                          59 *}
+      Ann {*     #basic_scan patterns                    59 *}
+      Ann {* ----------------------------------------------- *}
+      Ann {*  *}
+      Ann {* rule  severity  #fails  description *}
+      Ann {* ----  --------  ------  --------------------------------- *}
+      Ann {* N5    warning      163  redefined module *}
+      Ann {*  *}
+      Ann {* There are no clocks *}
+      Ann {* There are no constraint ports *}
+      Ann {* There are no equivalent pins *}
+      Ann {* There are no net connections *}
+      Ann {* top_module_name = booth *}
+      Ann {* Unified STIL Flow *}
+      Ann {* min_n_shifts = 1 *}
+      Ann {* serial_flag = 1 *}
+   }
+}
+Signals {
+   "m2[7]" In; "m2[6]" In; "m2[5]" In; "m2[4]" In;
+   "m2[3]" In; "m2[2]" In; "m2[1]" In; "m2[0]" In;
+   "m1[7]" In; "m1[6]" In; "m1[5]" In; "m1[4]" In;
+   "m1[3]" In; "m1[2]" In; "m1[1]" In; "m1[0]" In;
+   "result_pro[15]" Out; "result_pro[14]" Out; "result_pro[13]" Out; "result_pro[12]" Out; "result_pro[11]" Out;
+   "result_pro[10]" Out; "result_pro[9]" Out; "result_pro[8]" Out; "result_pro[7]" Out; "result_pro[6]" Out;
+   "result_pro[5]" Out; "result_pro[4]" Out; "result_pro[3]" Out; "result_pro[2]" Out; "result_pro[1]" Out;
+   "result_pro[0]" Out;
+}
+SignalGroups {
+   "_default_In_Timing_" = '"m2[7]" + "m2[6]" + "m2[5]" +
+   "m2[4]" + "m2[3]" + "m2[2]" + "m2[1]" +
+   "m2[0]" + "m1[7]" + "m1[6]" + "m1[5]" +
+   "m1[4]" + "m1[3]" + "m1[2]" + "m1[1]" +
+   "m1[0]"'; // #signals=16
+   "_pi" = '"m2[7]" + "m2[6]" + "m2[5]" +
+   "m2[4]" + "m2[3]" + "m2[2]" + "m2[1]" +
+   "m2[0]" + "m1[7]" + "m1[6]" + "m1[5]" +
+   "m1[4]" + "m1[3]" + "m1[2]" + "m1[1]" +
+   "m1[0]"'; // #signals=16
+   "_in" = '"m2[7]" + "m2[6]" + "m2[5]" +
+   "m2[4]" + "m2[3]" + "m2[2]" + "m2[1]" +
+   "m2[0]" + "m1[7]" + "m1[6]" + "m1[5]" +
+   "m1[4]" + "m1[3]" + "m1[2]" + "m1[1]" +
+   "m1[0]"'; // #signals=16
+   "_default_Out_Timing_" = '"result_pro[15]" + "result_pro[14]" + "result_pro[13]" +
+   "result_pro[12]" + "result_pro[11]" + "result_pro[10]" + "result_pro[9]" + "result_pro[8]" +
+   "result_pro[7]" + "result_pro[6]" + "result_pro[5]" + "result_pro[4]" + "result_pro[3]" +
+   "result_pro[2]" + "result_pro[1]" + "result_pro[0]"'; // #signals=16
+   "_po" = '"result_pro[15]" + "result_pro[14]" + "result_pro[13]" + "result_pro[12]" +
+   "result_pro[11]" + "result_pro[10]" + "result_pro[9]" + "result_pro[8]" + "result_pro[7]" +
+   "result_pro[6]" + "result_pro[5]" + "result_pro[4]" + "result_pro[3]" + "result_pro[2]" +
+   "result_pro[1]" + "result_pro[0]"'; // #signals=16
+   "_out" = '"result_pro[15]" + "result_pro[14]" + "result_pro[13]" + "result_pro[12]" +
+   "result_pro[11]" + "result_pro[10]" + "result_pro[9]" + "result_pro[8]" + "result_pro[7]" +
+   "result_pro[6]" + "result_pro[5]" + "result_pro[4]" + "result_pro[3]" + "result_pro[2]" +
+   "result_pro[1]" + "result_pro[0]"'; // #signals=16
+}
+Timing {
+   WaveformTable "_default_WFT_" {
+      Period '100ns';
+      Waveforms {
+         "_default_In_Timing_" { 0 { '0ns' D; } }
+         "_default_In_Timing_" { 1 { '0ns' U; } }
+         "_default_In_Timing_" { Z { '0ns' Z; } }
+         "_default_In_Timing_" { N { '0ns' N; } }
+         "_default_Out_Timing_" { X { '0ns' X; } }
+         "_default_Out_Timing_" { H { '0ns' X; '40ns' H; } }
+         "_default_Out_Timing_" { T { '0ns' X; '40ns' T; } }
+         "_default_Out_Timing_" { L { '0ns' X; '40ns' L; } }
+      }
+   }
+}
+ScanStructures {
+   // Uncomment and modify the following to suit your design
+   // ScanChain "chain_name" { ScanIn "chain_input_name"; ScanOut "chain_output_name"; }
+}
+PatternBurst "_burst_" {
+   PatList { "_pattern_" {
+   }
+}}
+PatternExec {
+   PatternBurst "_burst_";
+}
+Procedures {
+   "capture" {
+      W "_default_WFT_";
+      C { "_po"=\r16 X ; }
+      "forcePI": V { "_pi"=\r16 # ; }
+      "measurePO": V { "_po"=\r16 # ; }
+   }
+   // Uncomment and modify the following to suit your design
+   // load_unload {
+      // V { } // force clocks off and scan enable pins active
+      // Shift { V { _si=#; _so=#; }} // pulse shift clocks
+   // }
+}
+MacroDefs {
+}
+Pattern "_pattern_" {
+   W "_default_WFT_";
+   "precondition all Signals": C { "_pi"=\r16 0 ; "_po"=\r16 X ; }
+   "pattern 0": V { "_pi"=0011111010001110; }
+   Call "capture" { 
+      "_pi"=1101010100001100; "_po"=HHHHHHLHHHHHHHLL; }
+   "pattern 1": V { "_pi"=1010101101111101; }
+   Call "capture" { 
+      "_pi"=0101010110101100; "_po"=HHHLLHLLLLLHHHLL; }
+   "pattern 2": V { "_pi"=0011010001101011; }
+   Call "capture" { 
+      "_pi"=0110110101001001; "_po"=LLLHHHHHLLLHLHLH; }
+   "pattern 3": V { "_pi"=0101110100000101; }
+   Call "capture" { 
+      "_pi"=1001001000001001; "_po"=HHHHHHLLLLHLLLHL; }
+   "pattern 4": V { "_pi"=1101101000010101; }
+   Call "capture" { 
+      "_pi"=0110101100111010; "_po"=LLLHHLLLLLHHHHHL; }
+   "pattern 5": V { "_pi"=1110101110000000; }
+   Call "capture" { 
+      "_pi"=0101010111010001; "_po"=HHHHLLLLLHHLLHLH; }
+   "pattern 6": V { "_pi"=0111010111011000; }
+   Call "capture" { 
+      "_pi"=0010101100011000; "_po"=LLLLLHLLLLLLHLLL; }
+   "pattern 7": V { "_pi"=0110101101111001; }
+   Call "capture" { 
+      "_pi"=0010101100010110; "_po"=LLLLLLHHHLHHLLHL; }
+   "pattern 8": V { "_pi"=0101001101001110; }
+   Call "capture" { 
+      "_pi"=1011010110100111; "_po"=LLLHHLHLLLLHLLHH; }
+   "pattern 9": V { "_pi"=1001101100001000; }
+   Call "capture" { 
+      "_pi"=1001010110011111; "_po"=LLHLHLLLHLLLHLHH; }
+   "pattern 10": V { "_pi"=1011001100110110; }
+   Call "capture" { 
+      "_pi"=0101101010000000; "_po"=LLHLHHLHLLLLLLLL; }
+   "pattern 11": V { "_pi"=1110100111011101; }
+   Call "capture" { 
+      "_pi"=1000101000011001; "_po"=HHHHLHLLLHHHHLHL; }
+   "pattern 12": V { "_pi"=0010101100101100; }
+   Call "capture" { 
+      "_pi"=0100010100000000; "_po"=LLLLLLLLLLLLLLLL; }
+   "pattern 13": V { "_pi"=0001001000010011; }
+   Call "capture" { 
+      "_pi"=0101100111101011; "_po"=HHHHHLLLHLHHLLHH; }
+   "pattern 14": V { "_pi"=1001011011101010; }
+   Call "capture" { 
+      "_pi"=1101001100100010; "_po"=HHHHHLHLLLLLLHHL; }
+   "pattern 15": V { "_pi"=0101010101000001; }
+   Call "capture" { 
+      "_pi"=1011010101001000; "_po"=HHHLHLHLHHHLHLLL; }
+   "pattern 16": V { "_pi"=0111010110000110; }
+   Call "capture" { 
+      "_pi"=1110100101111011; "_po"=HHHHLHLLHHHHLLHH; }
+   "pattern 17": V { "_pi"=1011010101100000; }
+   Call "capture" { 
+      "_pi"=1011011011000001; "_po"=LLLHLLHLLLHHLHHL; }
+   "pattern 18": V { "_pi"=0111000110001110; }
+   Call "capture" { 
+      "_pi"=0010010100000001; "_po"=LLLLLLLLLLHLLHLH; }
+   "pattern 19": V { "_pi"=0111101100100000; }
+   Call "capture" { 
+      "_pi"=1101010101000010; "_po"=HHHHLHLLHHHLHLHL; }
+   "pattern 20": V { "_pi"=1000101001000001; }
+   Call "capture" { 
+      "_pi"=1101010111000011; "_po"=LLLLHLHLLLHHHHHH; }
+   "pattern 21": V { "_pi"=1100111001000011; }
+   Call "capture" { 
+      "_pi"=0111011010100010; "_po"=HHLHLHLLHLHLHHLL; }
+   "pattern 22": V { "_pi"=0111010111100000; }
+   Call "capture" { 
+      "_pi"=0101100100001000; "_po"=LLLLLLHLHHLLHLLL; }
+   "pattern 23": V { "_pi"=1000011011000011; }
+   Call "capture" { 
+      "_pi"=0010110101011100; "_po"=LLLHLLLLLLHLHHLL; }
+   "pattern 24": V { "_pi"=1101010000101000; }
+   Call "capture" { 
+      "_pi"=1110101010011000; "_po"=LLLLHLLLHHHHLLLL; }
+   "pattern 25": V { "_pi"=1010010101011101; }
+   Call "capture" { 
+      "_pi"=0111010100100010; "_po"=LLLLHHHHHLLLHLHL; }
+   "pattern 26": V { "_pi"=0111001001000111; }
+   Call "capture" { 
+      "_pi"=0101010101011000; "_po"=LLLHHHLHLLHHHLLL; }
+   "pattern 27": V { "_pi"=1010110101011101; }
+   Call "capture" { 
+      "_pi"=0010110110110110; "_po"=HHHHLLHLHHHHHHHL; }
+   "pattern 28": V { "_pi"=0101001000100000; }
+   Call "capture" { 
+      "_pi"=1110001100101001; "_po"=HHHHHLHHLHLHHLHH; }
+   "pattern 29": V { "_pi"=1010000100000000; }
+   Call "capture" { 
+      "_pi"=0111010100111001; "_po"=LLLHHLHLLLLLHHLH; }
+   "pattern 30": V { "_pi"=0101001100000000; }
+   Call "capture" { 
+      "_pi"=1011110110000111; "_po"=LLLHHHHHHLHLHLHH; }
+   "pattern 31": V { "_pi"=0010010101000110; }
+   Call "capture" { 
+      "_pi"=1101001001110101; "_po"=HHHLHLHLHHHHHLHL; }
+   "pattern 32": V { "_pi"=1011101001010001; }
+   Call "capture" { 
+      "_pi"=1010101110000000; "_po"=HHLHLHLHHLLLLLLL; }
+   "pattern 33": V { "_pi"=1110001010000001; }
+   Call "capture" { 
+      "_pi"=1101001110000011; "_po"=LLLHLHLHHHHHHLLH; }
+   "pattern 34": V { "_pi"=0100010110010110; }
+   Call "capture" { 
+      "_pi"=1010110110100010; "_po"=LLLHHHHLLHHHHLHL; }
+   "pattern 35": V { "_pi"=0010111010000101; }
+   Call "capture" { 
+      "_pi"=0101010111010101; "_po"=HHHHLLLHHLHHHLLH; }
+   "pattern 36": V { "_pi"=1000101001011010; }
+   Call "capture" { 
+      "_pi"=0100101000011000; "_po"=LLLLLHHLHHHHLLLL; }
+   "pattern 37": V { "_pi"=1100101101011110; }
+   Call "capture" { 
+      "_pi"=1001010110010001; "_po"=LLHLHHHLLHHLLHLH; }
+   "pattern 38": V { "_pi"=1111010111111110; }
+   Call "capture" { 
+      "_pi"=1010101100000001; "_po"=HHHHHHHHHLHLHLHH; }
+   "pattern 39": V { "_pi"=1001010110110101; }
+   Call "capture" { 
+      "_pi"=1010010000111011; "_po"=HHHLHLHLHHLLHHLL; }
+   "pattern 40": V { "_pi"=1101001111011011; }
+   Call "capture" { 
+      "_pi"=0101101101011101; "_po"=LLHLLLLHLLLLHHHH; }
+   "pattern 41": V { "_pi"=0110010100101001; }
+   Call "capture" { 
+      "_pi"=0010011001000000; "_po"=LLLLHLLHHLLLLLLL; }
+   "pattern 42": V { "_pi"=1111010110010101; }
+   Call "capture" { 
+      "_pi"=0100110110011001; "_po"=HHHLLLLHLLLLLHLH; }
+   "pattern 43": V { "_pi"=1000111111010111; }
+   Call "capture" { 
+      "_pi"=0010101000010000; "_po"=LLLLLLHLHLHLLLLL; }
+   "pattern 44": V { "_pi"=0101111101100101; }
+   Call "capture" { 
+      "_pi"=1001101101011011; "_po"=HHLHHHLLLLLHHLLH; }
+   "pattern 45": V { "_pi"=1110101100011000; }
+   Call "capture" { 
+      "_pi"=0010100111111000; "_po"=HHHHHHHLHLHHHLLL; }
+   "pattern 46": V { "_pi"=1111010110101101; }
+   Call "capture" { 
+      "_pi"=1001001100010011; "_po"=HHHHLHHHHHHLHLLH; }
+   "pattern 47": V { "_pi"=0010101111010111; }
+   Call "capture" { 
+      "_pi"=0001011100100111; "_po"=LLLLLLHHHLLLLLLH; }
+   "pattern 48": V { "_pi"=1010101100101011; }
+   Call "capture" { 
+      "_pi"=0010111100010010; "_po"=LLLLLLHHLHLLHHHL; }
+   "pattern 49": V { "_pi"=1110000101000111; }
+   Call "capture" { 
+      "_pi"=0001101110000111; "_po"=HHHHLLHHLLHHHHLH; }
+   "pattern 50": V { "_pi"=0110011101000000; }
+   Call "capture" { 
+      "_pi"=0000000110000000; "_po"=LLLLLLLLHLLLLLLL; }
+   "pattern 51": V { "_pi"=1011100110010101; }
+   Call "capture" { 
+      "_pi"=1000010111000000; "_po"=LLLHHHHLHHLLLLLL; }
+   "pattern 52": V { "_pi"=0000001101010001; }
+   Call "capture" { 
+      "_pi"=0001010101100000; "_po"=LLLLLHHHHHHLLLLL; }
+   "pattern 53": V { "_pi"=0101100100100100; }
+   Call "capture" { 
+      "_pi"=1101110100110000; "_po"=HHHHHLLHLHHHLLLL; }
+   "pattern 54": V { "_pi"=1111010110000110; }
+   Call "capture" { 
+      "_pi"=1011101100010000; "_po"=HHHHHLHHHLHHLLLL; }
+   "pattern 55": V { "_pi"=1111101111001011; }
+   Call "capture" { 
+      "_pi"=1101111000011000; "_po"=HHHHHHLLHHLHLLLL; }
+   "pattern 56": V { "_pi"=0010010101100100; }
+   Call "capture" { 
+      "_pi"=0011100100111110; "_po"=LLLLHHLHHHLLHHHL; }
+   "pattern 57": V { "_pi"=1001001100110010; }
+   Call "capture" { 
+      "_pi"=0001111010011110; "_po"=HHHHLHLLHLLLLHLL; }
+   "pattern 58": V { "_pi"=1001000100011000; }
+   Call "capture" { 
+      "_pi"=0101100001111010; "_po"=LLHLHLLHHHHHLLLL; }
+}
+
+// Patterns reference 177 V statements, generating 177 test cycles
