@@ -31,4 +31,9 @@ TEST PATTERN GENERATION OF BOOTH MULTIPLIER
 </div>
 
 3. After this Generate the test pattern using Synopsys Tetramax or Cadence Modus
-![WhatsApp Image 2024-05-02 at 14 29 22](https://github.com/user-attachments/assets/9410400d-74bf-4d29-a76f-0e3d1c7b567b)
+<div align="left">
+  <img src="https://github.com/user-attachments/assets/9410400d-74bf-4d29-a76f-0e3d1c7b567b" />
+  <br>
+  <b>Figure:</b> Test pattern report
+</div>
+
