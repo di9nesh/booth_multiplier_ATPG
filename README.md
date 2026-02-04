@@ -17,7 +17,7 @@ TEST PATTERN GENERATION OF BOOTH MULTIPLIER
   </tr>
 </table>
 
-<div align="center">
+<div align="left">
   <img src="https://github.com/user-attachments/assets/13df2cd8-fd02-4637-a957-57f2154da052" width="404"/>
   <br>
   <b>Figure:</b> After Simulation
